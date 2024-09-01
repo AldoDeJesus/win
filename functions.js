@@ -46,7 +46,7 @@ $(function(){
 		ctx.fillStyle = "#e7c75b";
 		ctx.fillText("🙊🙈",20,100);
 
-		var coupons = ['<b>Lo siento!</b><br>Aqui no hay nada!! :(','<b>Ganaste!</b><br>¿Quieres <b>Salir?</b>','<b>Lo siento :(</b><br>Please Intenta otra ves!!','<b>Ganaste!!</b><br>¿Quieres <span style="color:#DA4453">;)</span> salir?'];
+		var coupons = ['<b>Lo siento!</b><br>Intenta otra ves!! :(','<b>Ganaste!</b><br>¿Quieres <b>Salir?</b>','<b>Lo siento :(</b><br> Intenta otra ves!!','<b>Ganaste!!</b><br>¿Quieres <span style="color:#DA4453">;)</span> salir?'];
 		var coupon = coupons[Math.floor(Math.random()*coupons.length)];
 		$('.message').html(coupon);
 	}
